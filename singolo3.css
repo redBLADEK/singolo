@@ -1,0 +1,129 @@
+@font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    src: url("assets/Lato-Light.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    src: url("assets/Lato-Regular.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    src: url("assets/Lato-Bold.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 900;
+    src: url("assets/Lato-Black.ttf") format("truetype");
+  }
+  * {
+      font-family: "Lato";
+      margin: 0 auto;
+      padding: 0;
+      max-width: 1020px
+  }
+  .portfolio {
+      background-color: #2d303a;
+      padding-left: 40px;
+      padding-right: 40px;
+  }
+  .portfolio h2 {
+      font-size: 30px;
+      color: #666d89;
+      font-weight: 900;
+      padding-top: 60px;
+      padding-bottom: 23px;
+    }
+    .portfolio p {
+      font-size: 18px;
+      color: #767e9e;
+      font-weight: 300;
+      padding-bottom: 13px;
+    }
+    .button_bordered {
+      cursor: pointer;
+      border-style: solid;
+      border-width: 1px;
+      border-color: rgb(102, 109, 137);
+      border-radius: 5px;
+      font-size: 12px;
+      font-weight: 400;
+      color: rgb(118, 126, 158);
+      background: transparent;
+      padding: 2.5px 6px;
+      margin-right: 6px;
+    }
+    .button_bordered:hover {
+      border-color:#dedede;
+      color:#dedede;
+    }
+  .four_column_layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-column-gap: 20px;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-row-gap: 20px;
+      padding-top: 20px;
+      padding-bottom: 67px;
+  }
+  .four_column_layout img {
+      margin: 0;
+  }
+  .separator4 {
+      height: 6px;
+      background-color: #323746;
+  }
+  .about_us {
+      background-color: #f2f2f2; 
+      padding-left: 40px;
+      padding-right: 40px;
+  }
+  .about_us h2 {
+  font-size: 30px;
+  font-weight: 900;
+  color: #666d89;
+  padding-top: 59px;
+  padding-bottom: 17px;
+  }
+  .about_us p {
+      font-size: 18px;
+      font-weight: 300;
+      color: #767e9e;
+      line-height: 30px;
+      padding-bottom: 46px;
+  }
+  .three_column_layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-column-gap: 18px;
+  }
+  .three_column_layout h3 {
+      font-size: 18px;
+      font-weight: 900;
+      color: #767e9e;
+      padding-top: 12px;
+      padding-bottom: 10px;
+      color: #666d89;
+  }
+  .three_column_layout p {
+      font-size: 12px;
+      font-weight: 400;
+      color: #767e9e;
+      color: #767e9e;
+      line-height: 20px;
+      padding-bottom: 24px;
+  }
+  .social_media img {
+      padding-right: 5px;
+      padding-bottom: 65px;
+  }
+  .separator5 {
+      height: 6px;
+      background-color: #ffffff;
+  }
