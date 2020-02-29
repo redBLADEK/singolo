@@ -40,13 +40,13 @@
 	padding-top: 60px;
 	padding-bottom: 23px;
   }
-  .portfolio p {
+.portfolio p {
 	font-size: 18px;
 	color: #767e9e;
 	font-weight: 300;
 	padding-bottom: 13px;
   }
-  .button_bordered {
+.button_bordered {
 	cursor: pointer;
 	border-style: solid;
 	border-width: 1px;
@@ -59,7 +59,7 @@
 	padding: 2.5px 6px;
 	margin-right: 6px;
   }
-  .button_bordered:hover {
+.button_bordered:hover {
 	border-color:#dedede;
 	color:#dedede;
   }
@@ -85,11 +85,11 @@
 	padding-right: 40px;
 }
 .about_us h2 {
-font-size: 30px;
-font-weight: 900;
-color: #666d89;
-padding-top: 59px;
-padding-bottom: 17px;
+	font-size: 30px;
+	font-weight: 900;
+	color: #666d89;
+	padding-top: 59px;
+	padding-bottom: 17px;
 }
 .about_us p {
 	font-size: 18px;
