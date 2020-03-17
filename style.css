@@ -64,11 +64,11 @@ h1 {
 .menu li button:hover {
 	color:#f06c64;
 }
-#switcher:checked ~ .button {
-	background: #f00;
-  }
+.menu li button:focus {
+	color: #f06c64;
+}
 button:focus {
-    outline: none;
+	outline: none;
 }
 button {
 	cursor: pointer;
@@ -195,6 +195,10 @@ button {
 	margin-right: 6px;
   }
 .button_bordered:hover {
+	border-color:#dedede;
+	color:#dedede;
+  }
+  .button_bordered:focus {
 	border-color:#dedede;
 	color:#dedede;
   }
