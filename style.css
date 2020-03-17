@@ -79,43 +79,30 @@ button {
 	height: 6px;
 	background-color: #323746;  
 }
-.slide {
-	height: 482px;
-	background-color: #f06c64;
-	display: flex;
-	align-items: center;  
-	padding: 53px 6px 58px 6px; 
-}
-.slider .slide {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-@-webkit-keyframes fade {
-    from {
-        opacity: .4
-    }
-    to {
-        opacity: 1
-    }
-}
-@keyframes fade {
-    from {
-        opacity: .4
-    }
-    to {
-        opacity: 1
-    }
-}
-/* .slide { 
-	margin: 0;
+.slider{
 	height: 594px;
-	background-image: url("assets/Slide-2.png");
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-column-gap: 800px;
-}*/
+    max-width: 100%;
+    position: relative;
+}
+#slide1 {
+	height: 81,5%;
+	background-color: #f06c64;
+	align-items: center;
+	padding: 53px 106px 58px 106px; 
+}
+.slider .prev, .slider .next {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+}
+.slider .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
 .separator2 {
 	height: 6px;
 	background-color: #ea676b;

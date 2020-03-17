@@ -11,6 +11,9 @@ menu.addEventListener("click", (event) => {
     behavior: 'smooth'
   });
 });
+
+var slideIndex = 1;
+showSlides(slideIndex);
 function plusSlide() {
     showSlides(slideIndex += 1);
 }
@@ -22,7 +25,7 @@ function currentSlide(n) {
 }
 function showSlides(n) {
     var i;
-    var slides = document.getElementsByClassName("slide");
+    var slides = document.getElementsByClassName("item");
     if (n > slides.length) {
       slideIndex = 1
     }
@@ -32,5 +35,5 @@ function showSlides(n) {
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
-    slides[slideIndex - 1].style.display = "block";
+    slides[slideIndex - 1].style.display = "flex";
 }
